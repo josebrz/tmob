@@ -30,7 +30,7 @@ class RedirectViewSet(viewsets.ViewSet):
                 status.HTTP_200_OK
             )
         return Response(
-            'Not Found',
+            {},
             status.HTTP_404_NOT_FOUND
         )
 
