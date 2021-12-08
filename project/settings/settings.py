@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.db.backends.mysql',
     'corsheaders',
     'rest_framework',
-    'project'
+    'project.task_tmob'
 ]
 
 MIDDLEWARE = [
