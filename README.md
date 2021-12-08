@@ -39,7 +39,7 @@ https://docs.docker.com/compose/install/
 Then run the command
 
 ```angular2html
-docker-compose up
+make up
 ```
 
 To enter the django admin you must enter [here](http://0.0.0.0:8000/backoffice/)
@@ -47,3 +47,19 @@ To enter the django admin you must enter [here](http://0.0.0.0:8000/backoffice/)
 username: test
 password: test
 ```
+To see the logs run
+```angular2html
+make logs
+```
+
+To execute test run the following command
+```angular2html
+make test
+```
+
+To finish running the api run
+```angular2html
+make down
+```
+
+for more commands see Makefile file
