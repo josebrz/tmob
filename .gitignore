@@ -1,4 +1,7 @@
 .idea
 .env
 venv
-project/__pycache__/
+project/__pycache__
+project/settings/__pycache__
+project/task_tmob/__pycache__
+project/task_tmob/migrations/__pycache__
